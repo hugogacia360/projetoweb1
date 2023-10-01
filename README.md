@@ -8,6 +8,6 @@
 <img src="https://raw.githubusercontent.com/hugogacia360/assets/main/Color%20Palette.png" width=50%>
 
 # logomarca
-<img scr="https://raw.githubusercontent.com/hugogacia360/assets/main/Mil%20Patas.png">
+<img src="https://raw.githubusercontent.com/hugogacia360/assets/main/Mil%20Patas.png" width=50%>
 
 
