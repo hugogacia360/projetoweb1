@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background-color: #175EA8;
+}
+.cabecalho a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.cabecalho a:hover{
+    color: #FFFFFF;
+    transition: all, 0.3s;
+}
+.cabecalho img{
+    width: 150px;
+    height: 150px;
+}
+input{
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.principal{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    padding : 50px;
+    letter-spacing: 1.5px;
+    line-height: 2;
+}
+
+.banner img{
+    width: 500px;
+    height: 500px;
+}
+
+.sobre{
+    font-weight: bold;
+    background-color: #CCCCCC;
+    text-align: center;
+    border-radius: 192px;
+    padding: 100px;
+}
+
+.rodape{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-around;
+    background-color: #175EA8;
+    padding: 50px;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+h1, h2, h3, p{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer img{
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
