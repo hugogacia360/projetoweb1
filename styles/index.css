@@ -23,8 +23,8 @@ body{
     width: 150px;
     height: 150px;
 }
-input{
-    width: 400px;
+.barra-de-pesquisa{
+    width: 900px;
     height: 40px;
     border-radius: 20px;
     padding-left: 10px;
