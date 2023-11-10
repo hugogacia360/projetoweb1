@@ -7,26 +7,46 @@
     <title>PetShop MilPatas</title>
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
     <header>
-        <nav class="cabecalho">
-            <img src="assets/logo.png" alt="Logo da empresa" width="100px" height="100px">
-            <form>
-                <input type="search" placeholder="Pesquisar...">
-            </form>
-            <a href="#">Início</a>
-            <a href="produto.html">Produtos</a>
-            <a href="#">Contato</a>
-            <a href="login.html">Login</a>
+        <nav class="cabecalho navbar navbar-expand-lg navbar-light bg-blue">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="assets/logo.png" alt="Logo da empresa" width="100px" height="100px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+                    </form>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="produto.html">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
     <main>
-        <div class="principal">
-            <section class="sobre">
+        <div class="principal row">
+            <section class="sobre col-md-6">
                 <p>Etamos aqui para cuidar do seu pet com todo o carinho e dedicação que ele merece.Conheça nossos
                     serviços
                     Oferecemos serviços de banho e tosa, consultas, vacinas, cirurgias, exames e muito mais.
@@ -38,16 +58,16 @@
                     mas uma realidade vivenciada todos os dias em nossas atitudes, nas lojas e em todos os nossos pontos
                     de contato.</p>
             </section>
-            <figure class="banner">
-                <img src="assets/index_image.jpeg" alt="Banner">
+            <figure class="banner col-md-6">
+                <img src="assets/index_image.jpeg" alt="Banner" class="img-fluid">
             </figure>
         </div>
 
     </main>
 
     <footer>
-        <div class="rodape">
-            <ul>
+        <div class="rodape row">
+            <ul class="col-md-4">
                 <h1>Atendimento de Cadastro</h1>
                 <li><a href="#">Meu Cadastro</a></li>
                 <li><a href="#">Meus Pedidos</a></li>
@@ -55,7 +75,7 @@
                 <li><a href="#">Ouvidoria</a></li>
             </ul>
 
-            <ul>
+            <ul class="col-md-4">
                 <h2>Nossas políticas</h2>
                 <li><a href="#">Entrega e frete</a></li>
                 <li><a href="#">Pagamentos e reembolso</a></li>
@@ -63,7 +83,7 @@
                 <li><a href="#">Política de privacidade</a></li>
             </ul>
 
-            <ul>
+            <ul class="col-md-4">
                 <h3>Redes sociais</h3>
                 <a href="#">
                     <img src="assets/instagram.png" alt="Descrição do ícone">
