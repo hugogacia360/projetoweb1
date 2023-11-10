@@ -74,8 +74,7 @@ h1, h2, h3, p{
     font-weight: bold;
 }
 
-footer img{
-    width: 20px;
-    height: 20px;
-    padding: 10px;
+footer .img-fluid{
+    max-width: 10%;
+    height: auto;
 }
