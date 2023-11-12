@@ -46,18 +46,15 @@
     </header>
 
     <main class="produtos">
-        <figure>
-            <img src="assets/produto-1.jpg" alt="Coleira para cachorro">
-            <figcaption>Coleira vermelha</figcaption>
-        </figure>
-        <figure>
-            <img src="assets/produto-2.jpg" alt="Banner">
-            <figcaption>Casinha para pets</figcaption>
-        </figure>
-        <figure>
-            <img src="assets/produto-3.jpg" alt="Banner">
-            <figcaption>Coleira amarela</figcaption>
-        </figure>
+        <div class="container">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Gatos</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Cães</button>
+                </li>
+            </ul>
     </main>
 
 </body>
