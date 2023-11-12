@@ -13,25 +13,37 @@
 </head>
 
 <body>
-    <p>
-        Bem vindo, faça seu login!
-    </p>
-    <div>
-        <img src="assets/icon_login.png">
-        <form class="formulario">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Digite seu email">
-            <label for="senha">Senha</label>
-            <input type="password" name="senha" id="senha" placeholder="Digite sua senha"> <br>
-            <button type="submit">Entrar</button>
-        </form>
+    <div class="container">
+        <div class="row justify-content-center align-items-center vh-100">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-4">
+                <div class="text-center">
+                    <p class="fs-4">
+                        Bem vindo, faça seu login!
+                    </p>
+                    <div class="card p-4">
+                        <img src="assets/icon_login.png" class="mx-auto d-block" style="width: 100px; height: 100px;">
+                        <form>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="senha" class="form-label">Senha</label>
+                                <input type="password" name="senha" id="senha" class="form-control" placeholder="Digite sua senha">
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Entrar</button>
+                        </form>
+                    </div>
+                    <p class="mt-3">
+                        Não tem uma conta? <a href="#">Cadastre-se</a>
+                    </p>
+                    <p>
+                        <a href="index.html">Voltar</a>
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
-    <p class="registrar">
-        Não tem uma conta? <a href="#">Cadastre-se</a>
-    </p>
-    <P>
-        <a href="index.html">Voltar</a>
-    </P>
 
 </body>
 
