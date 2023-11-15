@@ -19,3 +19,11 @@ main h2{
     padding : 50px;
     color: #175EA8;
 }
+
+.card-img-top {
+    transition: transform .2s;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+}
