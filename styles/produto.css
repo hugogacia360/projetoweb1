@@ -4,27 +4,3 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.produtos {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding: 50px;
-    border: 1px solid black;
-    padding: 200px;
-}
-
-img {
-    width: 200px;
-    height: 200px;
-}
-
-figcaption {
-    font-size: 20px;
-    text-align: center;
-}
-
-/* TODO : - adicionar mais imagens de produtos 
-           - adicionar listagem por categorias
-           - pagina de compra de cada produto
-*/
