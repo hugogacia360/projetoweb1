@@ -78,3 +78,10 @@ footer .img-fluid{
     max-width: 10%;
     height: auto;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
